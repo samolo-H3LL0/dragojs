@@ -18,5 +18,17 @@
         <h1 id="threed">Drago.js</h1>
         <p>Framework for Discord.js</p>
     </div>
+    <p class="left">Example:</p>
+    <pre>
+        <span class="const">const</span> Drago = <span class="function">require</span>(<span class="string">'drago'</span>)
+        <span class="const">const</span> bot = new Drago.Bot(<span class="string">'TOKEN'</span>, <span class="string">'PREFIX'</span>)
+        <br>
+        bot.<span class="function">client</span>.<span class="function">on</span>(<span class="string">'message'</span>, <span class="value">message</span> => {
+            <span class="comment">// discord.js goes here...</span>
+            <span class="comment">// in next versions we will make or own code.</span>
+        })
+        <br>
+        bot.<span class="function">login</span>()
+    </pre>
 </body>
 </html>
