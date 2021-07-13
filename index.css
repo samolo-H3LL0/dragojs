@@ -57,21 +57,65 @@ body {
     font-size: 20px;
 }
 
+p {
+    font-family: var(--fonts);
+    color: white;
+    font-size: 25px;
+}
+
+.left {
+    margin-left: 45%;
+}
+
+pre {
+    font-family: monospace;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: rgba(235, 231, 231, 0.877);
+    margin: auto;
+    display: block;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+pre .const {
+    color: rgb(247, 30, 30);
+}
+
+pre .function {
+    color: rgb(63, 121, 196);
+}
+
+pre .string {
+    color: rgb(39, 138, 39)
+}
+
+pre .value {
+    color: orangered;
+}
+
+pre .comment {
+    color: rgb(102, 99, 99);
+}
 
 #threed {
     text-shadow: 1px 3px 1px rgb(177, 175, 175);
 }
 
 ::selection {
-    background-color: #333;
+    color: white;
+    background-color: rgb(110, 94, 199);
 }
 
 ::-moz-selection {
-    background-color: #333;
+    color: white;
+    background-color: rgb(110, 94, 199);
 }
 
 ::-webkit-selection {
-    background-color: #333;
+    color: white;
+    background-color: rgb(110, 94, 199);
 }
 
 ::-webkit-scrollbar {
